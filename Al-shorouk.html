@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+   <style >
+
+          *{box-sizing : border-box ;}
+
+
+           nav{ background: #594848;
+                width:100%;
+                overflow:auto;}
+           ul {margin:0;
+               padding: 0;
+              list-style:none;}
+            li{float:left;}
+
+            nav a {width:120px;
+                   display: block;
+                  padding:20px 10px;
+                    text-decoration:none;
+                   text-align:center;
+                   font-size: 20px ;
+                   color: white;
+                    font-family: arial;
+                    }
+            nav a:hover{background: skyblue;
+                        color: black;
+                         }
+            .container{max-width: 1250px;
+                      margin: auto;
+                      background: #f2f2f2;
+                      overflow: auto;
+                       }
+            .gallery{margin: 10px;
+                    border: 1px;
+                    float: left;
+                    width: 390px;
+                     }
+             .gallery img {width: 100%;
+                           height: auto;
+                           transition: .3s;
+                          }
+            .gallery img:hover{transform: scale(1.1);
+                               filter: grayscale(40);
+                                }
+
+              .desc{padding: 10px;
+                    text-align: center;
+                    }
+
+              footer{padding: 10px;
+                     font-size: 20px;
+                     font-weight: bold;
+                     text-align: center;
+                     background: #594848;
+                     color: white;
+                     font-family: inherit ;
+                     letter-spacing: 4px;
+              }
+
+
+   </style>
+  </head>
+  <body>
+
+   <nav>
+     <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">Contact</a></li>
+       <li><a href="#">Download</a></li>
+        <li><a href="#">Qustion</a></li>
+             <li><a href="#">Answers</a></li>
+          <li><a href="#">About</a></li>
+     </ul>
+   </nav>
+
+   <div style="font-size: 40px; font-weight: bold; text-align:center; padding: 20px; font-family: monospace;"  class="container">
+     El-Shorouk
+   </div>
+
+   <div class="container">
+      <a href="111.jpg"> <div class="gallery"> <img src="111.jpg" alt="111"></a>
+       <div class="desc">one</div>
+     </div>
+
+
+     <a href="112.jpg"><div class="gallery"> <img src="112.jpg" alt="112"></a>
+       <div class="desc">tow</div>
+     </div>
+
+    <a href="113.jpg"><div class="gallery"> <img src="113.jpg" alt="113"></a>
+       <div class="desc">three</div>
+     </div>
+
+     <a href="114.jpg"><div class="gallery"> <img src="114.jpg" alt="111"></a>
+       <div class="desc">four</div>
+     </div>
+
+    <a href="115.jpg"><div class="gallery"> <img src="115.jpg" alt="111"></a>
+       <div class="desc">five</div>
+     </div>
+
+   <a href="116.jpg"><div class="gallery"> <img src="116.jpg" alt="111"></a>
+       <div class="desc">six</div>
+     </div>
+
+   </div>
+  <footer>Best wishes</footer>
+  </body>
+</html>
